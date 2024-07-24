@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    border:border-box;
+    border: none;
+}
+
+.body{
+    width: inherit;
+    height: 1100px;
+    background-image: url(main2.jpg);
+    background-size:cover;
+}
+
+.nav{
+    height: 63px;
+    width: 1600px;
+    display: flex;
+    background-color:#edeae1;
+    position: fixed;
+    margin-left: 44px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+p:hover{
+     text-decoration: underline;
+}
+ 
+.div1{
+    height: 80%;
+    width: 170px;
+    background-image: url(one-life-logo.png);
+    background-size: cover;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+.div2{
+    width: 30%;
+    height: inherit;
+    font-size: larger;
+    display: flex;
+    margin-left: 550px;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+
+.div3{
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.head{
+    height: 220px;
+    width: inherit;
+    display: flex;
+    align-items: baseline;
+    margin-left: 130px;
+    margin-top: 200px;
+}
+
+.head1{
+    height: 220px;
+    width: 70%;
+    font-size: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    animation: aa 2s ease-in 5s infinite alternate-reverse ;
+  
+}
+
+#head11{
+    margin-left: 45px;
+}
+
+.head2{
+    height: 200px;
+    width: 450px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(239, 248, 248);
+    display: flex;
+    font-size: large;
+    border-radius: 30%;
+    margin:60px 20px 20px 200px;
+    font-weight: bold;
+    color: #edeae1;
+    align-items: center;
+    justify-content: center;
+    animation: aadi 1s steps(2,end) 1s infinite alternate ;
+
+}
+
+#button{
+    display: flex;
+    font-size: 30px;
+}
+
+.arrow{
+    margin-top: 70px;
+}
+
+.text-area{
+    width: inherit;
+    height: 835px;
+    background-color: rgb(176, 206, 211);
+}
+
+.text-area1{
+    width: 1000px;
+    height:150px ;
+    text-align: center;
+    margin-left: 344px;
+
+}
+.text-area2{
+    width: 1000px;
+    height:150px ;
+    text-align: center;
+    margin-left: 344px;
+}
+.text-area3{
+    width: 1000px;
+    height:150px ;
+    text-align: center;
+    margin-left: 344px;
+}
+.text-area4{
+    width: 1000px;
+    height:150px ;
+    text-align: center;
+    margin-left: 344px;
+}
+.text-area5{
+    width: 1000px;
+    height:150px ;
+    text-align: center;
+    margin-left: 344px;
+}
+
+h3{
+    font-size: larger;
+}
+
+.border:hover{
+    border: 1px solid black;
+}
+
+.www{
+    width: inherit;
+    height: 55px;
+    text-align: center;
+    font-size: 50px;
+    background-color: #edeae1;
+}
+
+.text-box{
+    width: inherit;
+    height: 380px;
+    background-color:  rgb(176, 206, 211);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.text-box1{
+    height: 80%;
+    width: 22%;
+    margin-top: 30px;
+}
+.text-box2{
+    height: 80%;
+    width: 22%;
+    margin-top: 30px;
+}
+.text-box3{
+    height: 80%;
+    width: 22%;
+    margin-top: 30px;
+}
+
+footer{
+    width: inherit;
+    height: 200px;
+    background-color: #edeae1;
+}
+
+.foot1{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 460px;
+    font-size: 18px;
+}
+
+.foot-logo{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size:25px;
+    margin-left: 720px;
+    margin-top: 20px;
+}
+
+.foot2{
+    width: 600px;
+    font-size:18px;
+    margin-left: 544px;
+    margin-top: 20px;
+}
+
+.foot3{
+    width: 500px;
+    font-size:18px;
+    margin-left: 650px;
+    margin-top: 20px;
+}
+
+@keyframes aadi{
+    form
+    {
+      transform: scale(2);
+    }
+    to 
+    {
+      transform: scale(0.5);
+    }
+  }
+@keyframes aa{
+    form
+    {
+      transform: translate(20px);
+    }
+    to 
+    {
+      transform: translate(50px);
+    }
+  }
