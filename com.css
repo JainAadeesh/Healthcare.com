@@ -1,0 +1,248 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf5f5;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Header Styles */
+  header {
+    background: #333;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: #77a1d3 3px solid;
+  }
+  
+  header h1 {
+    float: left;
+    margin-top: 10px;
+  }
+  
+  header nav {
+    float: right;
+    margin-top: 10px;
+  }
+  
+  header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  header ul li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Main Styles */
+  main {
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    color: #333;
+  }
+  
+  .post {
+    background: #f9f9f9;
+    padding: 10px;
+    border: #ccc 1px solid;
+    margin-bottom: 10px;
+  }
+  
+  .comments {
+    margin-top: 10px;
+    border-top: #eee 1px solid;
+    padding-top: 10px;
+  }
+  
+  /* Profile Section Styles */
+  .profile-card {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    background-image: url(4.png);
+    background-size: cover;
+  }
+  
+  .profile-info h3 {
+    margin: 0;
+  }
+  
+  .profile-info p {
+    margin: 5px 0;
+  }
+  
+  /* Create Post Section Styles */
+  #create-post form {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  #create-post label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #create-post input, #create-post textarea {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #create-post button {
+    display: block;
+    width: 98%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Users Section Styles */
+  .user-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-list li {
+    margin-bottom: 20px;
+  }
+  
+  .user-card {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-card .avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .user-info h3 {
+    margin: 0;
+  }
+  
+  .user-info p {
+    margin: 5px 0;
+  }
+  
+  /* Latest Posts Section Styles */
+  #latest-posts .post {
+    background: #f9f9f9;
+    padding: 10px;
+    border: #ccc 1px solid;
+    margin-bottom: 10px;
+  }
+  
+  /* Guidelines Section Styles */
+  .guidelines {
+    list-style: none;
+    padding: 0;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .guidelines li {
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Section Styles */
+  #contact form {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  #contact label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #contact input, #contact textarea {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #contact button {
+    display: block;
+    width: 99%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Login and Register Section Styles */
+  #login form, #register form {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  #login label, #register label {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  
+  #login input, #register input {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #login button, #register button {
+    display: block;
+    width: 99%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community Page</title>
+  <link rel="stylesheet" href="com.css">
+  <link rel="stylesheet" href="posts.json">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Community Page</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#forum">Forum</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#create-post">Create Post</a></li>
+          <li><a href="#users">Users</a></li>
+          <li><a href="#latest-posts">Latest Posts</a></li>
+          <li><a href="#guidelines">Guidelines</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="#register">Register</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to the Community</h2>
+      <p>This is the home section of the community page.</p>
+    </section>
+
+    <section id="forum">
+      <h2>Forum</h2>
+      <div class="post">
+        <h3>Post Title</h3>
+        <p>This is a post in the forum.</p>
+        <div class="comments">
+          <p>Comment 1: This is a comment.</p>
+          <p>Comment 2: This is another comment.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="profile">
+      <h2>User Profile</h2>
+      <div class="profile-card">
+        <img src="user.jpg" alt="User Avatar" class="avatar">
+        <div class="profile-info">
+          <h3>Username</h3>
+          <p>Email: user@example.com</p>
+          <p>Joined: January 2024</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="create-post">
+      <h2>Create a Post</h2>
+      <form>
+        <label for="post-title">Title:</label>
+        <input type="text" id="post-title" name="post-title">
+        <label for="post-content">Content:</label>
+        <textarea id="post-content" name="post-content" rows="4"></textarea>
+        <button type="submit">Post</button>
+      </form>
+    </section>
+
+    <section id="users">
+      <h2>Users</h2>
+      <ul class="user-list">
+        <li>
+          <div class="user-card">
+            <img src="user1.jpg" alt="User Avatar" class="avatar">
+            <div class="user-info">
+              <h3>Username1</h3>
+              <p>Email: user1@example.com</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="user-card">
+            <img src="user2.jpg" alt="User Avatar" class="avatar">
+            <div class="user-info">
+              <h3>Username2</h3>
+              <p>Email: user2@example.com</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="latest-posts">
+      <h2>Latest Posts</h2>
+      <div class="post">
+        <h3>Latest Post Title 1</h3>
+        <p>This is the latest post content.</p>
+      </div>
+      <div class="post">
+        <h3>Latest Post Title 2</h3>
+        <p>This is another latest post content.</p>
+      </div>
+    </section>
+
+    <section id="guidelines">
+      <h2>Community Guidelines</h2>
+      <ul class="guidelines">
+        <li>Be respectful to others.</li>
+        <li>No spamming or advertising.</li>
+        <li>Use appropriate language.</li>
+        <li>Follow the forum rules.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <section id="login">
+      <h2>Login</h2>
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <button type="submit">Login</button>
+      </form>
+    </section>
+
+    <section id="register">
+      <h2>Register</h2>
+      <form>
+        <label for="new-username">Username:</label>
+        <input type="text" id="new-username" name="new-username">
+        <label for="new-password">Password:</label>
+        <input type="password" id="new-password" name="new-password">
+        <button type="submit">Register</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Community Page. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
